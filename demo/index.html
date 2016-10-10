@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body>
+  <div class="container">
+    <!-- Page Content goes here -->
+    <h5>背景颜色</h5>
+    <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+    <h5>字体颜色</h5>
+    <div class="card-panel">
+        <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+    </div>
+    <h5>长度控制</h5>
+    <div class="card-panel">
+        <div class="row">
+          <div class="col s6 yellow">6</div>
+          <div class="col s6 red">6</div>
+          <div class="col s4 yellow">4</div>
+          <div class="col s8 red">8</div>
+          <div class="col s4 yellow">4</div>
+          <div class="col s4 red">4</div>
+          <div class="col s4 yellow">4</div>
+          <div class="col s3 blue">3</div>
+          <div class="col s3 yellow">3</div>
+          <div class="col s3 red">3</div>
+          <div class="col s3 green">3</div>
+          <div class=" offset-s6 col s3 green">offset-s6</div>
+        </div>
+    </div>
+    <h5>分割线和区域块</h5>
+    <div class="card-panel">
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 1</h5>
+        <p>Stuff</p>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 2</h5>
+        <p>Stuff</p>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 3</h5>
+        <p>Stuff</p>
+      </div>
+    </div>
+    <h5>垂直</h5>
+    <div class="card-panel">
+          <div class="valign-wrapper">
+            <h5 class="valign center-align">This should be vertically aligned</h5>
+          </div>
+          <div class="valign-wrapper">
+            <h5 class="center-align">This should be center aligned</h5>
+          </div>
+      </div>
+      <h5>浮动</h5>
+      <div class="card-panel">
+          <span class="right">right</span>
+          <span class="left">left</span>
+      </div>
+      <h5>根据屏幕大小隐藏</h5>
+      <div class="card-panel">
+          <div class="hide-on-small-only">hide-on-small-only</div>
+          <div class="hide-on-med-only">hide-on-med-only</div>
+          <div class="hide-on-large-only">hide-on-large-only</div>
+      </div>
+      <h5>截断</h5>
+      <div class="card-panel">
+          <h4 class="truncate">This is an extremely long title that will be truncated</h4>
+      </div>
+      <h5>hover</h5>
+      <div class="card-panel hoverable"> Hoverable Card Panel</div>
+      <h5>圆形图片</h5>
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+              <div class="col s4">
+                <img src="./me.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              </div>
+              <div class="col s8">
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <h5>视频</h5>
+      <div class="video-container">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <h5>阴影</h5>
+      <div class="card-panel">
+          <div class="col s12 m2">
+            <p class="z-depth-1">z-depth-1</p>
+          </div>
+          <div class="col s12 m2">
+            <p class="z-depth-2">z-depth-2</p>
+          </div>
+          <div class="col s12 m2">
+            <p class="z-depth-3">z-depth-3</p>
+          </div>
+          <div class="col s12 m2">
+            <p class="z-depth-4">z-depth-4</p>
+          </div>
+          <div class="col s12 m2">
+            <p class="z-depth-5">z-depth-5</p>
+          </div>
+      </div>
+
+      <h5>响应式表格</h5>
+      <div class="card-panel">
+           <table class="responsive-table">
+        <thead>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+
+
+  </body>
+</html>
